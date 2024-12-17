@@ -1,0 +1,17 @@
+<!-- app/views/questions/answer.html.erb -->
+
+<div class="container">
+  <h1>Stupid Coaching</h1>
+
+  <div class="message-container">
+    <p class="user-message"><%= @question %></p>
+    <p>--You</p>
+  </div>
+
+  <div class="coach">
+    <p class="coach-response"><%= @answer %></p>
+    <p>--Your coach</p>
+  </div>
+
+  <%= link_to "Ask another question", ask_path, class: "btn btn-primary mt-5" %>
+</div>

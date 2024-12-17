@@ -13,3 +13,70 @@
  *= require_tree .
  *= require_self
  */
+
+/* app/assets/stylesheets/application.css */
+
+/* Custom styles */
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.coach {
+  background-color: #f7f6c3;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 20px;
+  border-left: 5px solid #d2d7db;
+}
+
+.coach-response {
+  font-weight: bold;
+}
+
+.message-container {
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 30px;
+  border-left: 5px solid #d2d7db;
+}
+
+.form-inline {
+  display: flex;
+}
+
+input[type="text"] {
+  width: 100%; /* Make the input take full width */
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #d2d7db;
+  margin-right: 0; /* Remove any space between input and button */
+}
+
+input[type="submit"] {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: -5px; /* Remove space between the button and the input */
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+input[type="text"], input[type="submit"] {
+  height: 40px; /* Ensures both input and button have the same height */
+}
+
+input[type="submit"] {
+  border-radius: 5px;
+}

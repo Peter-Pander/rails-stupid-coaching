@@ -1,0 +1,13 @@
+<!-- app/views/questions/ask.html.erb -->
+
+<div class="container">
+  <h1>Stupid Coaching</h1>
+  <p>Ask your coach anything:</p>
+
+  <div class="message-container">
+    <form action="/answer" method="get" data-turbo="false" class="form-inline">
+      <input type="text" name="question" placeholder="Ask your question here" class="form-control" id="question-input">
+      <input type="submit" value="Ask!" class="btn btn-primary" id="ask-button">
+    </form>
+  </div>
+</div>
